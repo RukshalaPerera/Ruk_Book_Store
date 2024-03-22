@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!--link page1 style sheet-->
+    <link rel="stylesheet" href="css/main2.css">
+    <script src="js/main2.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div id="div1"><h1>RUKSHALA BOOK STORE</h1></div>
+        <br>
+    <div class="row" style="margin-left: 24px;">
+        <div class="row">
+            <img src="imgfolder2/image2.jpg" alt="Madol Doova">
+        </div>
+        <br>
+        <!--adding button to hide table and it diplay when button clicked-->
+        <div class="row">
+            <button onclick="toggleTable()" class="btn btn-primary btn-sm">View More Details</button>
+        </div>
+        <div class="row">
+            <strong>
+            <table id="myTable"  class="hidden">
+            <tr>
+                <th>Name of the Book</th>
+                <th>Madol Doova</th>
+            </tr>
+            <tr>
+                <th>Name of the Author</th>
+                <th>Mr. Martin Wickramasinghe</th>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <th>Madol Doova Sinhala: මඩොල් දූව is a children's novel and 
+                coming-of-age story written by Sri Lankan writer Martin Wickramasinghe 
+                and first published in 1947. The book recounts the misadventures of Upali Giniwella 
+                and his friends on the Southern coast of Sri Lanka during the 1890s. </th>
+                </tr>
+            <tr>
+                <th>Price</th>
+                <th>LKR 250.00</th>
+            </tr>
+            </table>
+        </strong>
+        </div>
+        <br><br>
+        <div class="row">
+            <div class="column">
+                <a class="btn btn-primary" href="../index.html" role="button" >BACK TO HOME PAGE</a>
+            </div>
+            <div class="column" id="idC1">
+                <a class="btn btn-primary" href="calculate/calculate.html" role="button">ADD TO CART</a>
+            </div>
+        </div>
+    </div>
+    
+    </div>
+    <br><br><br><br><br><br>
+    <div class="footer">&copy;2023 Rukshala Book Store</div>
+</body>
+</html>

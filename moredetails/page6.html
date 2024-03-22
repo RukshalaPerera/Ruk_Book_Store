@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!--link page1 style sheet-->
+    <link rel="stylesheet" href="css/main2.css">
+    <script src="js/main2.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div id="div1"><h1>RUKSHALA BOOK STORE</h1></div>
+        <br>
+    <div class="row" style="margin-left: 24px;">
+        <div class="row">
+            <img src="imgfolder2/image6.jpg" alt="Sherlock Homes" style="width: 194px; height: 259px;" >
+        </div>
+        <br>
+        <!--adding button to hide table and it diplay when button clicked-->
+        <div class="row">
+            <button onclick="toggleTable()" class="btn btn-primary btn-sm">View More Details</button>
+        </div>
+        <div class="row">
+            <table id="myTable"  class="hidden">
+            <tr>
+                <th>Name of the Book</th>
+                <th>Mother</th>
+            </tr>
+            <tr>
+                <th>Name of the Author</th>
+                <th>Maxim Gorky</th>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <th>The famous novel of revolutionary conversion and struggle. 
+                    This novel of Russia before the Revolution is without question 
+                    the masterpiece of Gorky, Russia's greatest living writer. 
+                    Into one passionate, astonishing book has been gathered the 
+                    spirit of the terrifying struggle against the Czar's autocracy. 
+                    In it Russia stands forth in a flood of light.<br>
+                    </th>
+                </tr>
+            <tr>
+                <th>Price</th>
+                <th>LKR 1300.00</th>
+            </tr>
+            </table>
+        </div>
+        <br><br>
+        <div class="row">
+            <div class="column">
+                <a class="btn btn-primary" href="../index.html" role="button" >BACK TO HOME PAGE</a>
+            </div>
+            <div class="column" id="idC1">
+                <a class="btn btn-primary" href="calculate/calculate6.html" role="button">ADD TO CART</a>
+            </div>
+        </div>
+    </div>
+    
+    </div>
+    <br><br><br><br><br><br>
+    <div class="footer">&copy;2023 Rukshala Book Store</div>
+</body>
+</html>

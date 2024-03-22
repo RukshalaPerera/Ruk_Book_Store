@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Payment</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="main3.css">
+  <script>
+    function calculateTotal() {
+      // Get the quantity value from the input field
+      var quantityInput = document.getElementById("quantity");
+      var quantity = parseInt(quantityInput.value);
+
+      // Calculate the total
+      var fixedAmount = 1300; // Replace with your desired fixed amount
+      var total = quantity * fixedAmount;
+
+      // Display the total
+      var totalElement = document.getElementById("total");
+      totalElement.textContent = "Total: LKR" + total;
+    }
+
+    function toggleform(){
+    document.getElementById("myForm").classList.toggle("hidden");
+    }
+    
+    
+    function myFunction(){
+      alert("You have successfully purchased your order!");
+    }
+    
+
+  </script>
+</head>
+<body>
+    <div class="container">
+        <h1>RUKSHALA BOOK STORE&nbsp;&nbsp;
+          <img src="../imgfolder2/shopping-cart.png" style="width: 30px; height: 30px;">&nbsp;
+        </h1>
+     <div class="row" id="main">
+        <div class="column">
+            <label for="quantity">Select Quantity:</label>
+        </div>
+        <div class="column" style="text-align:left;">
+            <input type="number" id="quantity" min="1" value="1">
+        </div>
+        <br>
+        <div class="column" id="all">
+            <button onclick="calculateTotal()">Calculate Total</button>
+        </div>
+        <br>
+        <div class="column">
+        <p id="total"></p>
+        </div>
+        <div class="column">
+          <div class="animation1"><p><strong>**These prices are validated until 31 <sup>st</sup> August 2023.</strong> </p></div>
+        </div>
+        <div class="column">
+          <button onclick="toggleform()" id="all">For Payment</button><br><br>
+          <form class="hidden" id="myForm" style="margin-left: 5px;">
+            <fieldset>
+              <p style="margin-left: 10px;">Please Fill Your Information</p>
+              <label for="firstName" style="margin-left: 10px;">First Name:</label>
+              <input type="text" id="firstName" name="firstName" placeholder="Rukshala" style="width: 50%;" required>
+                <br><br>
+              <label for="lastName" style="margin-left: 10px;">Last Name:</label>
+              <input type="text" id="lastName" name="lastName" placeholder="Perera" style="width: 50%;" required>
+                <br><br>
+              <label for="address" style="margin-left: 10px;">Address:</label>
+              <input type="text" id="address" name="address" placeholder="No.320,Mampe,Kuruduwatta,Piliyandala" style="margin-left: 18px; width: 50%;" required>
+                <br><br>
+              <input type="submit" value="submit" style="margin-left: 30%;">
+              <br><br>
+          </fieldset>
+          </form>
+        </div>
+          <br><br>
+          <button id="all" onclick="myFunction()">CASH ON DELIVERY</button>
+              <br>      
+    </div>
+    <br><br><br><br><br>
+    <div class="footer">&copy;2023 Rukshala Book Store</div>
+  </div>
+</body>
+</html>

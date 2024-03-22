@@ -1,0 +1,67 @@
+#div1 {
+    background-color: #9BE8D8;
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 1px;
+    margin: 10px;
+    text-align: center;
+    border:  solid #1D5B79;
+  }
+  body {
+    background-image: url("../imgfolder2/bac1.jpg");
+    min-width: 0%;
+    max-width:100% ;
+    width: max-content;
+    height: max-content;
+    background-size: cover;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+}
+
+
+ /* table propeties*/
+table, th, tr {
+    border: 2px solid;
+    background-color: #e1ebf0;
+    font-size: 16px;
+    margin: 20px;
+    padding: 4px;
+    text-align: left;
+}
+ 
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+    .column {
+      float: left;
+      width: 50%;
+      height: 30%;
+      padding: 2px;
+    }
+
+  /*btn properties */
+    .btn {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    padding: 12px 14px;
+    border: solid black;
+    }
+    .container .btn:hover {
+      background-color: #8CC0DE;
+    }
+    .footer {
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: #1D5B79;
+      color: white;
+      text-align: center;
+    }
+    

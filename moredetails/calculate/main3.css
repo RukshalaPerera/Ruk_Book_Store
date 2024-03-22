@@ -1,0 +1,64 @@
+h1{
+    font-size: 30px;
+    border: 2px solid #1D5B79;
+    padding: 1px;
+    background-color: #9BE8D8;
+    text-align: center;
+   
+}
+body {
+    background-image: url("../imgfolder2/bac1.jpg");
+    min-width: 0%;
+    max-width:100% ;
+    width: max-content;
+    height: max-content;
+    background-size: cover;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+}
+
+#main {
+    margin-top:20px;
+    margin-left: 2px;
+    font-size: 16px;
+}
+
+#allb {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    padding: 12px 14px;
+    border: solid black;
+}
+.container #allb:hover {
+    background-color: #8CC0DE;
+}
+
+form{
+    background-color: #e1ebf0;
+    border: 1px solid #1D5B79;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #1D5B79;
+    color: white;
+    text-align: center;
+}
+/* animation properties*/
+.animation1{
+    position: relative;
+    animation-name: ani1;
+    color: black;
+    font-size: 18px;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes ani1{
+    50% {color:black; left:100px; top:0px}
+    50% {color: red; right: 100px; bottom: 0px;}
+}

@@ -1,0 +1,58 @@
+#div1 {
+    background-color: #9BE8D8;
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 1px;
+    margin: 10px;
+    text-align: center;
+    border:  solid #1D5B79;
+  }
+  
+  body {
+    background-image: url("../img/bac1.jpg");
+    min-width: 0%;
+    max-width:100% ;
+    width: max-content;
+    height: max-content;
+    background-size: cover;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+}
+                                                                                                                                               
+  /* Style the links inside the navigation bar */
+  .topnav a {
+      float: center;
+      color: black;
+      text-align: left;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 24px;
+      font-weight: bold;
+      border:  solid #1D5B79;
+    }
+  /* Add an active class to highlight the current page */
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    #Oh1{
+    text-align: left;
+    padding: 2px;
+    margin: 2px;
+    font-size: 30px;
+    }
+    li,address{
+    text-align: justify;
+    font-size: 24px;
+    }
+    .footer {
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: #1D5B79;
+      color: white;
+      text-align: center;
+    }
+    
